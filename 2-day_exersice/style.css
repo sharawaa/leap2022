@@ -25,6 +25,11 @@ div{
 @media screen and (min-width:320px){
    div{
     background-color: rgb(216, 78, 27);
+
+   }
+   body div{
+    height: 100px;
+    width: 50px;
    }
    
 }
