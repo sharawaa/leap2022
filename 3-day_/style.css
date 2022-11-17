@@ -72,6 +72,16 @@
         display: flex;
         height: 50px;
         margin-left: 120px;
+
+
+        
+            
+           
+            
+            list-style: none;
+            font-size: 40px;
+            line-height: 40px;
+            text-decoration: none;
     }
     
     .container3{
@@ -171,7 +181,7 @@
         margin: 10px auto;
     }
     footer p{
-        margin: 10px 170px;
+        margin: 10px 120px;
     }
 }
 
@@ -218,6 +228,10 @@
         display: none;
 
     }
+    .big-container{
+        background-color: gray;
+        width: 100%;
+    }
     .container{
         width: 100%;
         margin: auto;
@@ -246,6 +260,8 @@
         display: flex;
         height: 50px;
         margin: auto;
+        text-decoration: none;
+        font-size: 30px;
     }
 
     .container3{
@@ -284,6 +300,8 @@
 
     .box3-4{
         display: flex;
+        max-width: 700px;
+        margin: auto;
 
     }
     .box3{
@@ -310,7 +328,7 @@
         margin: 20px auto;
     }
     .box4{
-        background-color: tomato;
+        
         height: 650px;
         width: 500px;
     }
@@ -422,14 +440,14 @@
     }
     .container-big{
         width: 100%;
-        background-color: orangered;
+        background-color: gray;
     }
 
     .box2-34{
         display: flex;
         margin: 10px auto;
         max-width: 1000px;
-        background-color: rgb(235, 9, 9);
+        /* background-color: rgb(235, 9, 9); */
     }
 
     .container2{
@@ -437,7 +455,7 @@
         max-width: 480px;
         height: 650px;
         margin-right: 20px;
-       background-color: gray;
+       /* background-color: gray; */
         
     }
     .box2 img {
@@ -449,8 +467,12 @@
     .box2 a{
         display: flex;
         height: 50px;
-        margin: auto;
-        list-style: none;
+        margin-left: 40px;
+        text-decoration: none;
+        font-size: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        /* background-color: greenyellow; */
     }
     
     .container3{
@@ -476,6 +498,9 @@
         border-radius: 30px;
         margin:  auto;
     }
+    .box2{
+        width: 200px;
+    }
     #bx2 h1{
         width: 30px;
         margin: auto;
@@ -487,9 +512,6 @@
         margin: 20px auto;
     }
 
-    .big-container{
-        background-color: rgb(219, 16, 16);
-    }
 
     .box3-4{
         display: flex;
@@ -520,14 +542,15 @@
     }
     .box4{
         display: inline;
-        background-color: tomato;
+        /* background-color: tomato; */
         height: 650px;
+        margin-left: 30px;
     }
     .box4 img{
         float: left;
-        width: 470px;
+        width: 400px;
         height: 300px;
-        margin: 30px auto;
+        margin: 30px 20px;
         border-radius: 40px;
     }
     .box4 p{
@@ -539,7 +562,7 @@
 
     .box5-container{
         width: 100%;
-        background-color: gray;
+        background-color: aquamarine;
     }
     .box5{
         display: flex;
@@ -568,7 +591,7 @@
     }
     .f-container{
         width: 100%;
-        background-color: blue;
+        background-color: pink;
     }
     footer{
         display: flex;
