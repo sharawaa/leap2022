@@ -1,0 +1,84 @@
+.box {
+    background-color: aqua;
+    height: 600px;
+    width: 1000px;
+    box-shadow: inset;
+    margin: auto;
+}
+.box1{
+    position: absolute;
+background-color: blue;
+z-index: 1;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+color: aliceblue;
+margin-top: 200px;
+margin-left: 200px;
+transition: margin-top 1s, margin-left 1s;
+
+}
+.box1 h1{
+ margin-top: 50px;
+margin-left: 20px
+;
+}
+.box1:hover{
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+    transition-delay: 2s;
+    transition: margin-top 2s, margin-left 2s ,font-size 2s;
+}
+
+.box2{
+    position: absolute;
+background-color: red;
+width: 150px;
+height: 150px;
+z-index: 2;
+border-radius: 50%;
+color: aliceblue;
+margin-top: 200px;
+margin-left: 400px;
+}
+.box2 h1{
+    margin-top: 50px;
+    margin-left: 5px
+}
+.box2:hover{
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+    transition: margin-top 2s, margin-left 2s ,font-size 2s;
+}
+
+.box3{
+    position: absolute;
+background-color: green;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+color: aliceblue;
+margin-top: 200px;
+margin-left: 400px;
+}
+.box3 h1{
+    margin-top: 50px;
+    margin-left: 5px;
+    
+}
+.box3:hover{
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: margin-top 2s, margin-left 2s;
+    transition-delay: 4ms;
+}
+
