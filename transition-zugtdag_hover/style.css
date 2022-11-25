@@ -4,7 +4,15 @@
     width: 1000px;
     box-shadow: inset;
     margin: auto;
+    border-radius: 40px;
 }
+
+.box:hover{
+    cursor: pointer;
+}
+
+
+
 .box1{
     position: absolute;
 background-color: blue;
@@ -14,24 +22,25 @@ height: 150px;
 border-radius: 50%;
 color: aliceblue;
 margin-top: 200px;
-margin-left: 200px;
-transition: margin-top 1s, margin-left 1s;
-
+margin-left: 400px;
+transition: margin-top 5s, margin-left 1s;
 }
+
 .box1 h1{
  margin-top: 50px;
-margin-left: 20px
-;
+margin-left: 20px;
 }
-.box1:hover{
+.box:hover .box1{
     background-color: aquamarine;
     color: blue;
     cursor: pointer;
     margin-top: 0px;
     margin-left: 0px;
     transition-delay: 2s;
-    transition: margin-top 2s, margin-left 2s ,font-size 2s;
+    transition: margin-top 2s, margin-left 2s ;
 }
+
+
 
 .box2{
     position: absolute;
@@ -48,14 +57,19 @@ margin-left: 400px;
     margin-top: 50px;
     margin-left: 5px
 }
-.box2:hover{
-    background-color: aquamarine;
-    color: blue;
+.box:hover .box2{
+    background-color: yellow;
     cursor: pointer;
     margin-top: 0px;
-    margin-left: 0px;
-    transition: margin-top 2s, margin-left 2s ,font-size 2s;
+    margin-right: 0px;
+    border-radius: 10%;
+    transition-property: margin-top, margin-right,background-color, border-radius;
+    transition-duration: 0.5s, 1s, 1.5s, 2s;
+    transition-delay: 0s, 1s, 1.5s;
 }
+
+
+
 
 .box3{
     position: absolute;
@@ -72,7 +86,7 @@ margin-left: 400px;
     margin-left: 5px;
     
 }
-.box3:hover{
+.box:hover .box3{
     background-color: aquamarine;
     color: blue;
     cursor: pointer;
