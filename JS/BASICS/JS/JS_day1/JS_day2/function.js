@@ -3,7 +3,6 @@
 
 // console.log(a<b)
 
-
 // let myAge = 22;
 
 // if(myAge >= 21){
@@ -78,10 +77,9 @@
 // }
 // console.log(weekName)
 
-
-
-
-
+let a = 30000;
+let b =5000;
+console.log((a*b)+"  1234.mniii javagiin orlogo")
 //  let weekday = 4;
 // switch ( weekday){
 //     case 1:
@@ -125,33 +123,23 @@
 // }
 // if(weekday==1 || weekday==2 || weekday==3 || weekday==4 || weekday==5){console.log("working day")}
 
+// let x = 60;
+// let y = 70;
+// let z = 50;
+// if (x > y) {
+//   if (x > z) {
+//     console.log(x, " n hamgiin ih ");
+//   } else if (x < y) {
+//     console.log(y, "n hamgiiin ih ");
+//   } else {
+//     console.log(z, "n hamgiin ih ");
+//   }
+// }
 
+/* ternary */
+// let age = 17;
+// age<21 ? console.log("chi arhi uuj bolohgue ahiin duu"): console.log("taaruulj uugaarain hugshuun");
 
+// Condition ? true : false;
 
-
-let x = 10; 
-let y = 30 ;
-let z = 20;
-if(x>y){
-    if(x>z){
-        console.log(x, " n hamgiin ih ");
-    }
-
-else{
-        console.log(y, "n hamgiiin ih ");
-    }
-}
-    else{console.log(z, "n hamgiin ih ");
-
-    }
-
-    /* ternary */
-    let age = 17;
-    age<21 ? console.log("chi arhi uuj bolohgue ahiin duu"): console.log("taaruulj uugaarain hugshuun");
-
-    Condition ? true : false;
-
-    const myState = age >=10 && age <=18 ? "teenage ": "adult";
-
-
-    
+// const myState = age >=10 && age <=18 ? "teenage ": "adult";
