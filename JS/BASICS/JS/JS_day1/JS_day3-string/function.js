@@ -10,26 +10,26 @@
 // console.log(fullname)
 // let str = "this is string"
 // console.log(str.substring(2))
-// // console.log(str.indexOf("is"))
+// console.log(str.indexOf("is"))
 // let youString = "this is substing is more not is";
 // console.log(youString.indexOf("is"));
 
 /* is arilgah */
-// let myString = "abc is alphabet is not";
-// console.log(myString.indexOf("is"));
-// let firstPart = myString.substring(0, myString.indexOf("is"));
-// let lastPart = myString.substring(
-//   myString.indexOf("is") + "is".length,
-//   myString.length
-// );
-// console.log(lastPart);
-// myString = firstPart.concat(lastPart);
+let myString = "abc is alphabet is not";
+console.log(myString.indexOf("is"));
+let firstPart = myString.substring(0, myString.indexOf("is"));
+let lastPart = myString.substring(
+  myString.indexOf("is") + "is".length,
+  myString.length
+);
+console.log(lastPart);
+myString = firstPart.concat(lastPart);
 
-// firstPart = myString.substring(0, myString.indexOf("is"));
-// lastPart = myString.substring(
-//   myString.indexOf("is") + "is".length,
-//   myString.length
-// );
-// myString = firstPart.concat(lastPart);
+firstPart = myString.substring(0, myString.indexOf("is"));
+lastPart = myString.substring(
+  myString.indexOf("is") + "is".length,
+  myString.length
+);
+myString = firstPart.concat(lastPart);
 // console.log(myString);
-console.log(Math.ceil((Math.random()*6)))
+// console.log(Math.ceil((Math.random()*6)))

@@ -16,8 +16,8 @@ console.log(Pinecone.concat(leap));
 /*5. firstName, LastName, country, city, age, job хувьсагч зарлан эдгээр хувьсагч орсон өгүүлбэр зохионо уу. Жишээ нь:  */
     let age = "22";
     let country = "huvsgul";
-    let job = "developer";
-    console.log(firstName.concat("miniii ner"));
+    let job = "hugjuulegch";
+    console.log("miniii ner " + firstName + " bi " + country + " aimagt amidardag. " + lastName + " bol minii aav " + " bi " +job + " eer ajildag " );
 
 
 /*6. Дараах загварыг хэвлэхийн тулд console.log() болон escape тэмдэгтүүдийг ашиглана уу.
@@ -45,4 +45,5 @@ I am 'Age here' years old.
     let o ="I am Age here years old."
     console.log("Hello I am Name Here\nI am Age here years old.\n\tThis is the new line with tab and some backslashes\.");
 /*Тэгш өнцөгт гурвалжны 2 суурын урт өгөгдсөн(a, b) бол тухайн гурвалжины налуугын уртыг( c ) ол */
+console.log( Math.sqrt((a*a)+(b*b))+" gurvaljnii naluugiin urt")
 
