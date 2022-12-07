@@ -20,9 +20,12 @@
 //     if(isNaN(parseFloat(number1))) && !isNaN
 // }
 
-const a = function (name){
-    return "hello"+ name
-}
-const b = (name) =>{return "hello" + name}
-console.log(a(" yunchka"))
+// const a = function (name){
+//     return "hello"+ name
+// }
+// const b = (name) =>{return "hello" + name}
+// console.log(a(" yunchka"))
 
+let text = "Hello world, welcome to the universe.";
+let result = text.includes("world", 12);
+console.log(result)
