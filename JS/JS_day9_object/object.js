@@ -72,10 +72,42 @@ let athletics =[
 ]
 
 
-function getavaregespeed(abc){
+function getavaregespeed(list){
     //buh tamirchdiiin dundaj hurd
-    
+    let sum = 0;
+    for(i=0; i < list.lent; i++){
+        let sum = 0;
+        for(j=0; j< list.length; j++){
+            sum = sum + list[i].record[j];
+        }
+
+        let personNewObj = {
+            name: list[i].name,
+            avg: sum / list[i].record.length,
+        };
+
+    }
+
 }
+
+
+function getAvgSec(list) {
+    let avgList = [];
+    for (i = 0; i < list.length; i++) {
+      //list.length = 5 (hunii too)
+      let sum = 0;
+      for (j = 0; j < list[i].record.length; j++) {
+        sum += list[i].record[j];
+      }
+  
+      let personNewObj = {
+        name: list[i].name,
+        avg: sum / list[i].record.length,
+      };
+      avgList.push(personNewObj);
+    }
+    return avgList;
+  }
 
 
 
