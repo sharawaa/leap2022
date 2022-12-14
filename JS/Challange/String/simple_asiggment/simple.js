@@ -19,31 +19,11 @@ console.log(Pinecone.concat(leap));
     let job = "hugjuulegch";
     console.log("miniii ner " + firstName + " bi " + country + " aimagt amidardag. " + lastName + " bol minii aav " + " bi " +job + " eer ajildag " );
 
-
-/*6. Дараах загварыг хэвлэхийн тулд console.log() болон escape тэмдэгтүүдийг ашиглана уу.
+    /*6. Дараах загварыг хэвлэхийн тулд console.log() болон escape тэмдэгтүүдийг ашиглана уу.
           1 2 3 4 5 
           2 3 4 5 1 
           3 4 5 1 2 
           4 5 1 2 3 
           5 1 2 3 4 */
           
-    console.log("1 2 3 4 5\n2 3 4 5 1\n3 4 5 1 2\n4 5 1 2 3");
-          /*3 оронтой той ( n ) ороход тухайн 3 оронтой тооны нийлбэрийг ол. */
-
-          /*1. 2 тоо prompt - оор авна
-2. prompt - оор өгсөн 2 тооны хооронд дурын тоо generate хийж гаргана уу. */
-let a = 4 ;
-let b = 7;
-console.log(Math.floor(Math.random() * Math.abs(a-b))+Math.min(a, b));
-
-/*1 удаагийн хэвлэлтээр үүнийг хэвлэж гаргана уу.
-
-Hello I am "Name Here".
-I am 'Age here' years old.
-    This is the new line with tab and some \backslashes\ */
-    let p = "Hello I am Name Here";
-    let o ="I am Age here years old."
-    console.log("Hello I am Name Here\nI am Age here years old.\n\tThis is the new line with tab and some backslashes\.");
-/*Тэгш өнцөгт гурвалжны 2 суурын урт өгөгдсөн(a, b) бол тухайн гурвалжины налуугын уртыг( c ) ол */
-console.log( Math.sqrt((a*a)+(b*b))+" gurvaljnii naluugiin urt")
-
+          console.log("1 2 3 4 5\n2 3 4 5 1\n3 4 5 1 2\n4 5 1 2 3");
