@@ -1,0 +1,7 @@
+.darkMode {
+    background-color:rgb(red, green, blue);
+    color: aqua;
+    width: 100%; 
+    height: 200px;
+    flex-wrap: wrap;
+}
