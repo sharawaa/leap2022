@@ -30,25 +30,20 @@
 
 
 
+/*scroll hiihed huvi guinee doorn  */
 
 
-
-let customscroll = document.getElementById("color");
-
-window.addEventListener("scroll", () => {
-    let ham = (window.scrollY);
-    let tam = Math.floor((ham*100)/(document.querySelector("body").clientHeight - window.innerHeight));
-    customscroll.innerHTML=`${tam}%`
-})
-customscroll
-
-
+// let customscroll = document.getElementById("color");
 
 // window.addEventListener("scroll", () => {
-//     let percent = Math.floor(
-//       (window.scrollY * 100) / (document.querySelector("body").clientHeight - window.innerHeight)
-//     );
-//     document.querySelector("#percentage").innerText = ${percent}%;
-//   });
+//     let ham = (window.scrollY);
+//     let tam = Math.floor((ham*100)/(document.querySelector("body").clientHeight - window.innerHeight));
+//     customscroll.innerHTML=`${tam}%`
+// })
+
+
+
+
+
 
 
