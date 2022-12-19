@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+    height: 100vh;
+}
+#color{
+    position: fixed;
+    margin-right: 0px;
+    width: 70px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
