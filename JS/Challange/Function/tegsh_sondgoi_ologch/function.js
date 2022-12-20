@@ -3,8 +3,8 @@
 2. 2 авсан тоон утгын хоорондох сондгой тоонуудын array буцаадаг 1 function. */
 
 
-let num1 = 10;
-let num2 = 20;
+let num1 = 20;
+let num2 = 60;
 let output = [];
 
 even(num1,num2)
@@ -19,4 +19,4 @@ function even(a, b) {
     }
     return output
 }
- console.log(output)
+ console.log(output);
