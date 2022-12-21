@@ -3,21 +3,14 @@
 
 //2 too oruulna ter toon hoorondoh tegsh toog hevlene
 
+//TEXT dundaas tom usgiig ni ylgaj avah ter ni pass code bnaa
 
-let num1 = 20;
-let num2 = 60;
-let output = [];
-
-even(num1,num2)
-function even(a, b) {
-    let j = 0;
-    for (let i = a; a <= b; i++) {
-        if (i % 2 == 0) {
-            output[j] = i;
-            j++
-        }
-
-    }
-    return output
-}
+let text = document.querySelector(".text").innerText;
+let bigwords = "QWERTYUIOPLKJHGFDSAZXCVBNM";
+let output=""
+ for(i=0;i<text.length;i++){
+    for(j=0;j<bigwords.length;j++){
+        if(text[i]==bigwords[j]){
+            output= output+text[i]+"";
+        }}}
  console.log(output);
