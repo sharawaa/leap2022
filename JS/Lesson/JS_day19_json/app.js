@@ -1,10 +1,14 @@
+
+
 const form = document.querySelector("form");
 const countriesContainer = document.querySelector(".countries");
 
-form.addEventListener()
 
 
-
+ form.addEventListener("submit",(e)=>{
+    e.preventDefault()
+    getCountry(e.target.country_name.value);
+   })
 
 
 
@@ -35,5 +39,20 @@ function getCountry(country){
         const neighbour=1
     })
 }
-getCountry("mongolia");
 
+
+
+
+
+// function modifyText(new_text) {
+//     const t2 = document.querySelector("input")
+//     t2.firstChild.nodeValue = new_text;
+//   }
+  
+//   // Add event listener to table with an arrow function
+
+
+  
+//   document. querySelector("input");
+//   form.addEventListener("click", () => { form.addEventListener(getCountry(modifyText())
+//   ); });
