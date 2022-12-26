@@ -30,7 +30,6 @@ function renderCountry(country){
   countriesContainer.style.opacity = 1;
 }
 
-
 function getCountry(country){
     fetch(`https://restcountries.com/v3.1/name/${country}`)
     .then((res)=>res.json())
