@@ -1,0 +1,9 @@
+#card{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+}
+.name   {
+    /* background-color: red; */
+}   
